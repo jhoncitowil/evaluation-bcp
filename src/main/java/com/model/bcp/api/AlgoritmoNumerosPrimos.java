@@ -22,8 +22,7 @@ public class AlgoritmoNumerosPrimos {
 		}
 		
 		Integer auxiliar;
-		Integer[] arregloOrdenado;
-	      for(int i = 2; i < result.size(); i++)
+	      for(int i = 1; i < result.size(); i++)
 	      {
 	        for(int j = 0;j < result.size()-i;j++)
 	        {
